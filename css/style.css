@@ -1,0 +1,155 @@
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,500,700,900&display=swap");
+
+@font-face {
+	font-family: "AmericanTypewriterStd";
+	src: url("../fonts/AmericanTypewriterStd-Bold.woff2") format("woff2"),
+		url("../fonts/AmericanTypewriterStd-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	/* по умолчанию */
+	/* font-size: 16px;  */
+}
+body {
+	line-height: 1;
+	font-family: "Roboto";
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+/* ------------------------------ */
+.main {
+	flex-grow: 1;
+}
+[class*="__container"] {
+	max-width: 1050px;
+	margin: 0px auto;
+	padding: 0px 15px;
+}
+/* ------------------------------ */
+/* Условные ПК, ноуты и телевизоры */
+/* 1050 из макета (контейнер + отступы) */
+@media (max-width: 1050px) {
+}
+/* Условные планшеты */
+@media (max-width: 991.98px) {
+}
+/* Условные мобилки */
+@media (max-width: 767.98px) {
+}
+@media (max-width: 479.98px) {
+}
+/* ------------------------------ */
+.header {
+}
+.doggie {
+	background: rgb(68, 253, 255);
+	background: linear-gradient(
+		0deg,
+		rgba(68, 253, 255, 0.9738489145658263) 0%,
+		rgba(46, 191, 255, 0.9682466736694678) 50%,
+		rgba(24, 127, 255, 1) 100%
+	);
+}
+.doggie__top {
+	padding: 15px 0px 10px 0px;
+}
+.doggie__body {
+	padding-bottom: 15px;
+}
+.doggie__header {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.doggie__logo-box {
+	padding: 0px 30px;
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+.doggie__logo {
+	max-width: 100px;
+	max-height: 100px;
+}
+.doggie__main-title {
+	font-family: "AmericanTypewriterStd";
+	text-transform: uppercase;
+	align-self: center;
+	color: #fff;
+	font-size: 24px;
+	font-weight: 900;
+}
+.doggie__main-title a:visited {
+	color: #111;
+}
+.doggie__navigation {
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 15px 40px;
+	margin: 0px 0px 50px 0px;
+}
+.doggie__list {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+.doggie__item {
+	padding: 0px 18px;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 1.57;
+	letter-spacing: 0.15px;
+}
+.doggie__name {
+	text-align: center;
+}
+.doggie__price {
+	text-align: center;
+	color: #207999;
+}
