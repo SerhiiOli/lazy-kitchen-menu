@@ -85,9 +85,7 @@ body {
 @media (max-width: 479.98px) {
 }
 /* ------------------------------ */
-.header {
-}
-.doggie {
+.lazy {
 	background: rgb(68, 253, 255);
 	background: linear-gradient(
 		0deg,
@@ -96,28 +94,28 @@ body {
 		rgba(24, 127, 255, 1) 100%
 	);
 }
-.doggie__top {
+.lazy__top {
 	padding: 15px 0px 10px 0px;
 }
-.doggie__body {
+.lazy__body {
 	padding-bottom: 15px;
 }
-.doggie__header {
+.lazy__header {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
 }
-.doggie__logo-box {
+.lazy__logo-box {
 	padding: 0px 30px;
 	display: flex;
 	flex-direction: column;
 	gap: 5px;
 }
-.doggie__logo {
+.lazy__logo {
 	max-width: 100px;
 	max-height: 100px;
 }
-.doggie__main-title {
+.lazy__main-title {
 	font-family: "AmericanTypewriterStd";
 	text-transform: uppercase;
 	align-self: center;
@@ -125,31 +123,31 @@ body {
 	font-size: 24px;
 	font-weight: 900;
 }
-.doggie__main-title a:visited {
+.lazy__main-title a:visited {
 	color: #111;
 }
-.doggie__navigation {
+.lazy__navigation {
 	background-color: #fff;
 	border-radius: 10px;
 	padding: 15px 40px;
 	margin: 0px 0px 50px 0px;
 }
-.doggie__list {
+.lazy__list {
 	display: flex;
 	flex-direction: column;
 	gap: 15px;
 }
-.doggie__item {
+.lazy__item {
 	padding: 0px 18px;
 	font-weight: 700;
 	font-size: 12px;
 	line-height: 1.57;
 	letter-spacing: 0.15px;
 }
-.doggie__name {
+.lazy__name {
 	text-align: center;
 }
-.doggie__price {
+.lazy__price {
 	text-align: center;
 	color: #207999;
 }
